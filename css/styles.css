@@ -1,0 +1,564 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100vw;
+}
+
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+.section1 {
+	height: 100vh;
+	width: 100vw;
+	background: url(../html/slider/slider.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.section2{
+	height: 100vh;
+	width: 100vw;
+	background: url(../html/projects.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.section3{
+	height: 100vh;
+	width: 100vw;
+	background: url(../html/tech.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.section4{
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	text-align: center;
+	margin-left: 350px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+
+}
+.nav{
+	background-color:  black;
+	width: 100vw;
+	height: 15vh;
+	text-align: center;
+	color: white;
+	padding-left: 300px;
+	
+}
+.nav li{
+	display: inline-block;
+	font-size: 12px;
+}
+.nav a{
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	padding: 50px;
+	font-family: "Montserrat";
+}
+
+.navigation {
+	width: 100vw;
+	height: auto;
+	text-align: center;
+	color: white;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-family: "Montserrat";
+
+}
+.train{
+	padding-top: 100px;
+	padding-left: 100px;
+	float: left;
+	
+}
+
+.text table,tr,td,h2{
+	padding-left:5px;
+}
+
+
+
+.text{
+	font-family: "Montserrat";
+	padding-left: 70px;
+}
+.second{
+	height: auto;
+	width: 100vw;
+	background-image: url(../html/tech.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.second h6{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	font-family: "Saira Condensed";
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+.second h5{
+	margin-top: 25px;
+	font-family: "Saira Condensed";
+	font-size: 84px;
+}
+.first{
+	margin-left: 50px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.logo{
+	text-align: center;
+	display: block;
+	color: white;
+}
+.row1{
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+	text-align: center;
+}
+.row2{
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.flip-card {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+  align-content: center;
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color:turquoise;
+  color: black;
+}
+
+
+.flip-card-back {
+  background-color: lightgreen;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-front1, .flip-card-back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front1 {
+  background-color:red;
+  color: black;
+}
+
+
+.flip-card-back1 {
+  background-color:green;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-front2, .flip-card-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front2 {
+  background-color:#598BAF;
+  color: black;
+}
+
+
+.flip-card-back2 {
+  background-color:#598BAF;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-front3, .flip-card-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front3 {
+  background-color:#B80F0A;
+  color: black;
+}
+
+
+.flip-card-back3 {
+  background-color:#B80F0A;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-front4, .flip-card-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front4{
+  background-color:#81007F;
+  color: black;
+}
+
+
+.flip-card-back4 {
+  background-color:#81007F;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-front5, .flip-card-back5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front5{
+  background-color:#CC7722;
+  color: black;
+}
+
+
+.flip-card-back5 {
+  background-color:#CC7722;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.welcome{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+
+}
+.welcome h1{
+	color: white;
+	font-size:100px;
+	font-family: "Roboto";
+
+}
+.welcome h2{
+	color: white;
+	font-size: 24px;
+	font-family: "agency fb"
+	margin-top:25px;
+	margin-bottom: 25px;
+}
+.welcome h1{
+	color: white;
+	font-size: 40px;
+	font-family: "agency fb"
+	margin-top:25px;
+	margin-bottom: 25px;
+}
+.welcome button{
+	background: #2176FF;
+	padding: 15px 30px;
+	color: white;
+	font-family: "Montserrat";
+	letter-spacing: 3px;
+	font-size: 20px;
+	font-size: 18px;
+	border-radius: 50px;
+}
+
+.discount-section {
+	background-color: black;
+
+	background-repeat: no-repeat;
+	background-position: right;
+	margin: 0;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+position: relative;
+}
+.products{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	background: white;
+	width: 100vw;
+	height:auto;
+	padding: 50px;
+}
+.products td{
+	height:370px;
+	width: 370px;
+}
+.products table{
+	height: 370px;
+	width: 75%;
+	margin-top:45px;
+	text-align: center;
+
+}
+.products table img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.products button{
+	background: #2176FF;
+	padding: 10px 20px;
+	color: white;
+	font-family: "Montserrat";
+	letter-spacing: 3px;
+	font-size: 12px;
+	font-size: 10px;
+	border-radius: 25px;
+}
+.section{
+	background-image: url(../html/contact.jpg);
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	display: block;
+	color: white;
+}
+
+.section h6{
+	font-size: 84px;
+	font-family: "Saira Condensed";
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: white;
+
+}
+.section h3{
+	color: white;
+}
+.section button{
+	background: white;
+	margin-bottom: 10px;
+	padding: 15px 30px;
+	color: black;
+	font-family: "Montserrat";
+	letter-spacing: 3px;
+	font-size: 17px;
+	font-size: 17px;
+	border-radius: 50px;
+	outline: 0;
+	border: 0;
+
+}
+.project{
+	margin-left: 50px;
+	margin-top: 100px;
+}
+.project p,h1 {
+	font-size: 60px;
+}
+.prject p,h6{
+	font-family: "Montserrat"; 
+}
+.carousel-inner img{
+	width: 50%;
+	height: 50%;
+}
+
+.black{
+	text-align: center;
+	display: block;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.social-icon a {
+  font-size:10px;
+  float: right;
+ }
+.fa-facebook{
+  color: #3b599b;
+}
+
+.fa-twitter{
+  color:#00aced;
+}
+
+
+
+.fa-facebook: hover,
+.fa-twitter:hover,
+{
+  color: #d5d5d5;
+}
+.footer-info{
+	background-color: black;
+	width: 100vw;
+	 color: white;
+	 height: 80px;
+	 display: flex;
+	 align-items: center;
+}
+footer p{
+	margin-left: 50px;
+	font-family: "Saira Condensed";
+	font-size:14px;
+	font-weight: 400px;
+
+}
+.row{
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.product-image{
+	padding: auto;
+}
+.btn-group{
+	padding-left: 10px;
+	font-family: "Saira Condensed";
+
+}
+.btn{
+	background-color: lightgrey;
+}
+.gang{
+	padding-left: 50px;
+    padding-top: 5px;
+
+}
+.button button{
+	background: lightgreen;
+	padding: 15px;
+	color: white;
+	font-family: "Montserrat";
+	letter-spacing: 3px;
+	font-size: 20px;
+	font-size: 18px;
+	border-radius: 50px;
+	
+}
+.container{
+	padding-left: 0px;
+	margin-left: 12px;
+}
+.sales{
+	margin-left: 200px
+}
+.product-text{
+     text-align: center;
+     padding: 25px 25px;
+     font-size: 12px;
+     font-family: "Montserrat";
+     padding-bottom: 100px;
+
+}
+.middle{
+	text-align: center;
+	display: block;
+}
+.discount-section{
+	background-color: lightgrey;
+	padding-right: 0px;
+	padding-left: 0px;
+
+}
+.product-heading{
+	padding-top: 50px;
+}
+
+.discount-section h3{
+	text-align: left;
+	font-size: 15px;
+	font-family: "Saira Condensed";
+	padding-top: 20px;
+
+}
+
+
